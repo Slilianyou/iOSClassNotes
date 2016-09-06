@@ -13,6 +13,7 @@
 		7B0229F61D7E90E4002BEC02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0229F41D7E90E4002BEC02 /* Main.storyboard */; };
 		7B0229F81D7E90E4002BEC02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B0229F71D7E90E4002BEC02 /* Assets.xcassets */; };
 		7B0229FB1D7E90E4002BEC02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B0229F91D7E90E4002BEC02 /* LaunchScreen.storyboard */; };
+		7B022A031D7E95CB002BEC02 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B022A021D7E95CB002BEC02 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7B0229F71D7E90E4002BEC02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B0229FA1D7E90E4002BEC02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B0229FC1D7E90E4002BEC02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B022A021D7E95CB002BEC02 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B022A031D7E95CB002BEC02 /* CoreText.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		7B0229DF1D7E90E4002BEC02 = {
 			isa = PBXGroup;
 			children = (
+				7B022A021D7E95CB002BEC02 /* CoreText.framework */,
 				7B0229EA1D7E90E4002BEC02 /* iOSClassNotes */,
 				7B0229E91D7E90E4002BEC02 /* Products */,
 			);
