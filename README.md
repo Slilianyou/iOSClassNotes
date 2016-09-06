@@ -79,9 +79,9 @@ label.adjustsFontSizeToFitWidth = YES;</br>
 baselineAdjustment这个值控制文本的基线位置，只有文本行数为1是有效</br>
 label.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;</br>
 //如果adjustsFontSizeToFitWidth属性设置为YES，这个属性就来控制文本基线的行为。</br>
-// UIBaselineAdjustmentAlignBaselines=0，默认，文本最上端与中线对齐</br>。
-// UIBaselineAdjustmentAlignCenters,   文本中线与label中线对齐</br>。
-// UIBaselineAdjustmentNone,  文本最低端与label中线对齐。;</br>
+//UIBaselineAdjustmentAlignBaselines=0，默认，文本最上端与中线对齐</br>。
+//UIBaselineAdjustmentAlignCenters,   文本中线与label中线对齐</br>。
+//UIBaselineAdjustmentNone,  文本最低端与label中线对齐。;</br>
 allowsDefaultTighteningForTruncation//iOS 9 新加的,默认是False,设置true  会让字体之间更紧凑一些</br>
 label0.allowsDefaultTighteningForTruncation = false</br>
 绘制text到指定区域</br>
