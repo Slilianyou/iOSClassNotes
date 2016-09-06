@@ -88,7 +88,7 @@ label0.allowsDefaultTighteningForTruncation = false</br>
 - (void)drawTextInRect:(CGRect)rect</br>
 //需要重载此方法，然后由子类调用，重写时调用super可以按默认图形属性绘制,若自己完全重写绘制函数,就不用调用super了</br>
 计算Label随字体多行后的高度</br>
--(CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines;</br>
+- (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines;</br>
 preferredMaxLayoutWidth</br>
 这个属性是用来设置多行label的最大宽度的</br>
 当自动布局的时候约束这个label的时候这个属性会起作用</br>
