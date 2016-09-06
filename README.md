@@ -1,6 +1,6 @@
 # iOSClassNotes
 网上找的iOS课堂笔记
-MVC模式：（model + view controller）:是一种帮你把代码功能和显示划分出来的设计模式；
+MVC模式：（model + view controller）:是一种帮你把代码功能和显示划分出来的设计模式；\n
 model:较为底层的数据引擎，负责管理实体中所继承的数据
 view：和用户交互界面
 controller： 链接二者的桥梁
