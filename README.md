@@ -84,9 +84,8 @@ label.baselineAdjustment = UIBaselineAdjustmentAlignBaselines;</br>
 //UIBaselineAdjustmentNone,  文本最低端与label中线对齐。</br>
 allowsDefaultTighteningForTruncation//iOS 9 新加的,默认是False,设置true  会让字体之间更紧凑一些</br>
 label0.allowsDefaultTighteningForTruncation = false</br>
-<br>绘制text到指定区域</br>
-<br>- (void)drawTextInRect:(CGRect)rect;</br>
-<br>//需要重载此方法，然后由子类调用，重写时调用super可以按默认图形属性绘制,若自己完全重写绘制函数,就不用调用super了</br>
+<br>绘制text到指定区域 //需要重载此方法，然后由子类调用，重写时调用super可以按默认图形属性绘制,若自己完全重写绘制函数,就不用调用super了</br>
+- (void)drawTextInRect:(CGRect)rect;</br>
 <br>计算Label随字体多行后的高度</br>
 <br>- (CGRect)textRectForBounds:(CGRect)bounds limitedToNumberOfLines:(NSInteger)numberOfLines;</br>
 preferredMaxLayoutWidth</br>
